@@ -134,6 +134,7 @@ def main():
 
     source_dir = os.path.abspath(args.source_dir)
     output_file = args.output_file
+    IGNORED_FILES.add(os.path.basename(output_file))
 
     if not os.path.isdir(source_dir):
         print(f"Error: Source directory '{source_dir}' not found.")
