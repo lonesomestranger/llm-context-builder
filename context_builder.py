@@ -3,8 +3,17 @@ import fnmatch
 import os
 
 IGNORED_DIRS = {".git", "__pycache__", ".idea", ".venv", "venv"}
-IGNORED_FILES = {".DS_Store", "*.pyc", "*.log", "*.sqlite3", "*.html"}
-INCLUDE_HIDDEN_FILES = {".env", ".env.example"}
+IGNORED_FILES = {
+    ".DS_Store",
+    "*.pyc",
+    "*.log",
+    "*.sqlite3",
+    "*.html",
+    "*.db",
+    "context_builder.py",
+    ".env",
+}
+INCLUDE_HIDDEN_FILES = {".env.example"}
 
 
 def matches_any_pattern(name, patterns):
