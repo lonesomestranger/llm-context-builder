@@ -65,6 +65,9 @@ IGNORED_FILES = {".DS_Store", "*.pyc", "*.log", "*.sqlite3", "*.html"}
 INCLUDE_HIDDEN_FILES = {".env", ".env.example"}
 ```
 
+## ⛰ Codeberg
+Код также доступен на [Codeberg](https://codeberg.org/lonesomestranger/llm-context-builder).
+
 ## 📄 Лицензия
 
 Этот проект распространяется под лицензией MIT. См. файл `LICENSE` для получения дополнительной информации.
