@@ -15,6 +15,7 @@ IGNORED_DIRS = {
     "dist",
     "build",
     ".vscode",
+    "skills",
 }
 IGNORED_FILES = {
     ".DS_Store",
